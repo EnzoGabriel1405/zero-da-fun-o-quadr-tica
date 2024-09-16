@@ -2,7 +2,7 @@ function bask(){
     let a = parseFloat(document.getElementById('a').value);
     let b = parseFloat(document.getElementById('b').value);
     let c = parseFloat(document.getElementById('c').value);
-    let delta = (b*b)*(-4*a*c);
+    let delta = (b*b)-(4*a*c);
     let rdelta = Math.sqrt (delta);
 
     if (delta == 0){
